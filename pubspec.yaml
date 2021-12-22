@@ -1,0 +1,73 @@
+name: flutter_base_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  device_info_plus: ^3.1.0
+  connectivity_plus: ^2.0.2
+  dio: ^4.0.1
+  flutter_bloc: ^7.3.3
+  equatable: ^2.0.3
+  dartz: ^0.10.0
+  json_annotation: ^4.3.0
+  flutter_staggered_grid_view: ^0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.5
+  json_serializable: ^6.0.1
+  flutter_native_splash: ^1.3.2
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/logo.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
