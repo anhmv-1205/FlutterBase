@@ -65,17 +65,20 @@ android {
 
     productFlavors {
         dev {
-             dimension "flavor-type"
-             applicationIdSuffix ".dev"
-             versionNameSuffix "-dev"
+            dimension "flavor-type"
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+            manifestPlaceholders["host"] = "dev.mte.com"
         }
         qa {
-             dimension "flavor-type"
-             applicationIdSuffix ".qa"
-             versionNameSuffix "-qa"
+            dimension "flavor-type"
+            applicationIdSuffix ".qa"
+            versionNameSuffix "-qa"
+            manifestPlaceholders["host"] = "qa.mte.com"
         }
         prod {
-             dimension "flavor-type"
+            dimension "flavor-type"
+            manifestPlaceholders["host"] = "mte.com"
         }
     }
 
@@ -91,4 +94,5 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.google.firebase:firebase-crashlytics:18.2.6"
+    implementation "androidx.multidex:multidex:2.0.1"
 }
