@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53687913308",
+    "project_id": "water-530bb",
+    "storage_bucket": "water-530bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53687913308:android:07cbdb0e8d4f44f5ef0f99",
+        "android_client_info": {
+          "package_name": "apps.anhmv.flutter_base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53687913308-781b6nso29imij4cjkglgjf81n6spfsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrwwPHEGQpR_-2Ta_JFOJQJUHylqZBwEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53687913308-781b6nso29imij4cjkglgjf81n6spfsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

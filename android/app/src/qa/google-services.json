@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148343700458",
+    "project_id": "mte-qa",
+    "storage_bucket": "mte-qa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148343700458:android:e8638a003716e8a49a5093",
+        "android_client_info": {
+          "package_name": "apps.anhmv.flutter_base.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148343700458-0psguopvd8ghiq9t1585j7jfrmsgvsu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwFYPtdrQTsKS95MFK4Y2wmbTEVgtAZs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148343700458-0psguopvd8ghiq9t1585j7jfrmsgvsu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

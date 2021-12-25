@@ -49,7 +49,7 @@ class _TabBarPageState extends State<TabBarPage> {
       currentIndex: _currentTab,
       showSelectedLabels: false,
       showUnselectedLabels: false,
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.transparent,
       selectedItemColor: const Color(0xff5b60ec),
       unselectedItemColor: Colors.grey,
       onTap: (index) {
