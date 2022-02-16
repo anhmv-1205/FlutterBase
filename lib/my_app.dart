@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/ui/components/flavor_banner.dart';
-import 'package:flutter_base_project/ui/pages/tab_bar/tabbar_page.dart';
+import 'package:flutter_base_project/ui/pages/login/login_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
-      home: FlavorBanner(child: TabBarPage()),
+      home: const FlavorBanner(child: LoginPage()),
     );
   }
 }

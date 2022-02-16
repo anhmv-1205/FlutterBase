@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-part './txt.dart';
 part './color_tile.dart';
+part './txt.dart';
 
 class FadePageRoute extends PageRouteBuilder {
   final Widget widget;
@@ -22,11 +22,12 @@ class FadePageRoute extends PageRouteBuilder {
               transformHitTests: false,
               position: Tween<Offset>(begin: const Offset(0.0, 1.0), end: Offset.zero).animate(animation),
               child: SlideTransition(
-                  position: Tween<Offset>(
-                    begin: Offset.zero,
-                    end: const Offset(0.0, -1.0),
-                  ).animate(secondaryAnimation),
-                  child: child),
+                position: Tween<Offset>(
+                  begin: Offset.zero,
+                  end: const Offset(0.0, -1.0),
+                ).animate(secondaryAnimation),
+                child: child,
+              ),
             );
           }),
         );
@@ -52,11 +53,7 @@ class Widgets {
     );
   }
 
-  void push(Widget? child, BuildContext context) {
-    if (child != null) {
-      Navigator.push(context, FadePageRoute(widget: child));
-    } else {
-      // showToast("No destination page found", context);
-    }
+  void push(Widget child, BuildContext context) {
+    Navigator.push(context, FadePageRoute(widget: child));
   }
 }

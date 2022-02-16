@@ -1,1 +1,3 @@
-abstract class Entity {}
+abstract class Entity {
+  const Entity();
+}

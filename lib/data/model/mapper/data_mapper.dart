@@ -1,8 +1,10 @@
-import 'package:flutter_base_project/data/model/data_model.dart';
+import 'package:flutter_base_project/data/model/base/data_model.dart';
 import 'package:flutter_base_project/domain/entities/entity.dart';
 
 abstract class DataMapper<D extends DataModel, E extends Entity> {
-  D mapToData(E entity);
+  E mapToEntity(D data);
 
-  E mapToDomain(D data);
+  List<E> mapToListEntity(List<D>? list) {
+    return list?.map(mapToEntity).toList() ?? List.empty();
+  }
 }

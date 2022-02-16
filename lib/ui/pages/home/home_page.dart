@@ -1,4 +1,3 @@
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,9 +15,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Center(
         child: TextButton(
-          child: Text('Click me!'),
+          child: const Text('Click me!'),
           onPressed: () {
-            FirebaseCrashlytics.instance.crash();
           },
         ),
       ),

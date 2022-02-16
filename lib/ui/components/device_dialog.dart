@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/config/flavor_config.dart';
-import 'package:flutter_base_project/utils/device_utils.dart';
+import 'package:flutter_base_project/shared/device_utils.dart';
 
 class DeviceInfoDialog extends StatelessWidget {
   const DeviceInfoDialog({Key? key}) : super(key: key);
